@@ -5,23 +5,24 @@ body {
 }
 
 h1 {
-  size: 64px;
+  font-size: 64px;
   text-align: center;
   padding: 10px;
 }
 
 h2 {
-  size: 34px;
+  font-size: 34px;
   text-shadow: 4px 4px 2px #808080;
 }
 
 p {
-  size: 24px;
+  font-size: 24px;
   padding-top: 15px;
 }
 img {
   display: block;
-  align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 550px;
 }
 
@@ -37,4 +38,26 @@ div {
 
 #blue {
   background-color: #0000ff;
+  text-align: left;
+}
+#yellow {
+  background-color: #ffff00;
+  text-align: right;
+}
+#yellow > p {
+  color: #000000;
+}
+#yellow > h2 {
+  color: #000000;
+}
+#yellow > h2 {
+  text-shadow: 4px 4px 2px, #c7e2c7;
+}
+#green {
+  background-color: #008000;
+  text-align: left;
+}
+footer > p {
+  text-align: center;
+  padding: 0, 10px, 10px, 0;
 }
