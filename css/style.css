@@ -1,0 +1,40 @@
+body {
+  font-family: "Times New Roman", sans-serif;
+  background: #000000;
+  color: #fff;
+}
+
+h1 {
+  size: 64px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  size: 34px;
+  text-shadow: 4px 4px 2px #808080;
+}
+
+p {
+  size: 24px;
+  padding-top: 15px;
+}
+img {
+  display: block;
+  align: center;
+  width: 550px;
+}
+
+div {
+  min-height: 150px;
+  padding: 25px;
+}
+
+#red {
+  background-color: #ff0000;
+  text-align: right;
+}
+
+#blue {
+  background-color: #0000ff;
+}
